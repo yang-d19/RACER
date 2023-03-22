@@ -3,8 +3,9 @@ project(poscmd_2_odom)
 
 set(CMAKE_BUILD_TYPE "Release")
 #set(CMAKE_CXX_FLAGS "-std=c++11")
-ADD_COMPILE_OPTIONS(-std=c++11 )
+# ADD_COMPILE_OPTIONS(-std=c++11 )
 ADD_COMPILE_OPTIONS(-std=c++14 )
+set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_CXX_FLAGS_RELEASE "-O3 -Wall -g")
 
 find_package(catkin REQUIRED COMPONENTS

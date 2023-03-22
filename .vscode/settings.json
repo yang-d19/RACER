@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "thread": "cpp",
+        "eigen": "cpp",
+        "dense": "cpp"
+    }
+}

@@ -8,15 +8,15 @@
                 "/usr/include/eigen3",
                 "/usr/include/pcl-1.10",
                 "/home/fast/Drone-RACER/devel/include",
-                "${workspaceFolder}/plan_env/include",
-                "${workspaceFolder}/active_perception/include",
-                "${workspaceFolder}/poly_traj/include"
+                "${workspaceFolder}/swarm_exploration/plan_env/include",
+                "${workspaceFolder}/swarm_exploration/active_perception/include",
+                "${workspaceFolder}/swarm_exploration/poly_traj/include"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",
-            "cStandard": "c11",
-            "cppStandard": "c++17",
-            "intelliSenseMode": "clang-x64"
+            "cStandard": "c17",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "linux-gcc-x64"
         }
     ],
     "version": 4
